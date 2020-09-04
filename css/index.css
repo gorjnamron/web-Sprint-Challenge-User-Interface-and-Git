@@ -47,8 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    box-sizing: border-box;
+body {
+    box-sizing: border-box; 
 }
 
 html, body {
@@ -105,7 +105,7 @@ header nav a {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 42%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -121,22 +121,52 @@ header nav a {
 }
 
 .middle-content .boxes {
+    width: 90%;
+    margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.one {
+    background-color: teal;
+}
+.two {
+    background-color: gold;
+}
+.three {
+    background-color: cadetblue;
+}
+.four {
+    background-color: coral;
+}
+.five {
+    background-color: crimson;
+}
+.six {
+    background-color: forestgreen
+}
+.seven {
+    background-color: darkorchid;
+}
+.eight {
+    background-color: hotpink;
+}
+.nine {
+    background-color: indigo;
+}
+.ten {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
